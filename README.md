@@ -1,17 +1,8 @@
-# Notițe Cursuri
+# React + Vite
 
-### Descriere
-Aplicație web pentru gestionarea notițelor luate la cursuri și seminarii. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Funcționalități (în dezvoltare)
-- Login cu cont instituțional (@stud.ase.ro)
-- Vizualizare, adăugare, editare și ștergere notițe
-- Organizare pe materii, date și etichete
-- Partajare notițe cu colegii
-- Grupuri de studiu și integrare conținut multimedia
+Currently, two official plugins are available:
 
-### Structura Proiectului
-- **client/**: Front-end-ul aplicației
-- **server/**: Back-end-ul și API-ul
-
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
