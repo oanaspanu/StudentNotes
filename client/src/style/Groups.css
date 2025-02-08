@@ -1,0 +1,139 @@
+/* General Styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #faf3e0;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  color: #4e4a39; 
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.message {
+  color: #8c5e3c; 
+  text-align: center;
+  font-style: italic;
+}
+
+.group-creation input {
+  width: 80%;
+  padding: 12px;
+  margin-right: 10px;
+  border: 1px solid #a8b89f; 
+  border-radius: 4px;
+  background-color: #f4f1e1; 
+}
+
+.create-btn {
+  padding: 12px 24px;
+  background-color: #3a5a40; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.create-btn:hover {
+  background-color: #2c4936; 
+}
+
+.group-list {
+  list-style: none;
+  padding: 0;
+}
+
+.group-item {
+  padding: 20px;
+  border: 1px solid #7a7c4f; 
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #d4cca1; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.group-name {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #4a4a39; 
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 18px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* Invite Button */
+.invite-btn {
+  background-color: #6dbf4a; 
+  color: white;
+}
+
+.invite-btn:hover {
+  background-color: #4a9f3d; 
+}
+
+/* Share Button */
+.share-btn {
+  background-color: #e09b3d;
+  color: white;
+}
+
+.share-btn:hover {
+  background-color: #c97829;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #d85a57; 
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c03d2b; 
+}
+
+/* Confirmation */
+.confirmation {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #f3e7a1; 
+  border-radius: 5px;
+  font-weight: bold;
+  color: #6e5b3d; 
+}
+
+/* Confirmation Buttons */
+.confirm-delete {
+  background-color: #d85a57; 
+  color: white;
+  margin-right: 10px;
+}
+
+.cancel-delete {
+  background-color: #5d8d87; 
+  color: white;
+}
+
+.confirm-delete:hover {
+  background-color: #c03d2b;
+}
+
+.cancel-delete:hover {
+  background-color: #4f6c68; 
+}

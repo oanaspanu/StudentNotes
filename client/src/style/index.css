@@ -1,0 +1,51 @@
+/* Global Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #E5D8B8; 
+  color: #5B4F3B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling */
+header {
+  background-color: #6B4F3B; 
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #A38C5A; 
+  text-decoration: none;
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #A44C3F; 
+}
