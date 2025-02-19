@@ -1,7 +1,5 @@
 # Course Notes  
 
-### Description  
-A web application for managing notes taken during courses and seminars.  
 
 ### Features
 - Login with an institutional account (@stud.ase.ro)  
